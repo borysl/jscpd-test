@@ -1,0 +1,34 @@
+{
+  "name": "jscpd-test",
+  "version": "1.0.0",
+  "description": "Test for bug in [jscpd with ignore](https://github.com/kucherenko/jscpd/issues/466#issuecomment-982487438)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "jscpd": "npx jscpd .",
+    "format-fix": "npx prettier . --write",
+    "format": "npx prettier . --check",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borysl/jscpd-test.git"
+  },
+  "keywords": [
+    "jscpd"
+  ],
+  "author": "Borys Lebeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borysl/jscpd-test/issues"
+  },
+  "homepage": "https://github.com/borysl/jscpd-test#readme",
+  "devDependencies": {
+    "jscpd": "^3.4.2",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">14",
+    "vscode": "^1.22.0"
+  }
+}
