@@ -1,7 +1,6 @@
 {
   "threshold": 7,
   "reporters": ["html", "console"],
-  "ignore": ["node_modules"],
   "absolute": false,
   "gitignore": true,
   "output": "jscpd-report",
